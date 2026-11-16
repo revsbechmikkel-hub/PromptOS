@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "promptos"
+version = "0.4.0"
+description = "Private local AI desktop for Linux, powered by Ollama"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+promptos = "promptos.main:main"
+
+[tool.setuptools]
+packages = ["promptos"]
