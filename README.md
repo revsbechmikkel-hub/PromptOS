@@ -1,5 +1,7 @@
 # PromptOS
 
+PromptOS now has separate build instructions for Linux and Windows. See [README-WINDOWS.md](README-WINDOWS.md) for the Windows 10/11 desktop build and EXE installer.
+
 PromptOS is a Linux desktop companion for private, local AI. It runs on your existing Linux desktop (it is **not** a replacement operating system) and connects to [Ollama](https://ollama.com).
 
 ## What's included in this build
